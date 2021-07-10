@@ -16,7 +16,7 @@ fetch(url, {
   .then((res) => res.json())
   .then((response) => console.log(response))
 
-const url = "http://elfcorreia.com.br/avaliacao.php"
+const url = "h"
 const body = { name: "teste" }
 
 fetch(url, {
@@ -27,7 +27,7 @@ fetch(url, {
   .then((response) => console.log(response))
 
 
-  const url = "http://elfcorreia.com.br/avaliacao.php"
+  const url = ""
 
 fetch(url)
   .then(res => res.json())
@@ -35,8 +35,8 @@ fetch(url)
 
 
 /*
-const token = '657fa81518b92e32633abd2252faafc1';
-fetch('http://elfcorreia.com.br/avaliacao.php', {
+const token = '';
+fetch(':', {
   headers: {
     Authorization: `token ${token}`
   }
@@ -46,8 +46,8 @@ fetch('http://elfcorreia.com.br/avaliacao.php', {
 
   var data = new FormData();
         data.append("nota", 5);
-        data.append("token", "abc123");
-        fetch("http://elfcorreia.com.br/avaliacao.php",
+        data.append("token", "");
+        fetch("",
             {
                 method: "POST",
                 body: data

@@ -104,8 +104,8 @@
          
     var data = new FormData();
     data.append("nota", avaliacao );
-    data.append("token", "657fa81518b92e32633abd2252faafc1");
-    fetch("http://elfcorreia.com.br/avaliacao.php",
+    data.append("token", "<TOKEM-AQUI>");
+    fetch("<LINK-DB>",
         {
             method: "POST",
             body: data

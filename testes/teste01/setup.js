@@ -104,8 +104,8 @@ function Avaliar(estrela) {
   document.getElementById('rating').innerHTML = avaliacao;
   var data = new FormData();
   data.append("nota", avaliacao );
-  data.append("token", "657fa81518b92e32633abd2252faafc1");
-  fetch("http://elfcorreia.com.br/avaliacao.php",
+  data.append("token", "");
+  fetch("",
       {
           method: "POST",
           body: data
