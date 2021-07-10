@@ -1,87 +1,40 @@
-* {
-  margin: 0;
-  font-family: rubik;
-}
-
-main {
-  padding: 30px;
-  text-align: center;
+body {
+  background-image: url(assets/fundo.jpg);
 }
 
 header {
-  background-color: #5C59FB;
-  color: white;
-  padding: 20px;
-}
-
-.navbar-brand{
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.navbar{
-  border-radius: 30px;
-}
-
-.nav-link{
-  font-size: 20px;
-}
-
-.btn{
-  color: #5C59FB;
-  border-color: #5C59FB;
-}
-
-.btn:hover{
-  background-color: #FFE496;
-  color:#5C59FB;
-  border-color: #5C59FB;
-}
-
-
-input {
-  width: 10px;
-}
-
-.textCaroussel{
-  font-size: 30px;
-}
-
-.descricao01 {
+  margin-top: 100px;
   text-align: center;
-  margin-bottom: 20px;
-  font-size: 20px;
 }
 
-.descricao02 {
+h1 { 
+  font-family: 'Roboto', sans-serif;
+  color: #FAF9F6;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-size: 35px;
+}
+
+h2 { 
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #FAF9F6;
+}
+
+.avaliacao img {
+  width: 50px;
+  margin: 10px 10px 0 0;
+}
+
+.avaliacao img:hover {
+  transform: rotate(45deg) scale(1.30);
+}
+
+.logo img {
+  width: 120px;
+}
+
+main {
   text-align: center;
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-.texto1{
-  font-size: 20px;
-  text-align: justify;
-  margin: 50px;
-}
-
-.fotos {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.page-footer p{
-  text-align: center;
-  font-size: 25px;
-  background: #5C59FB;
-  color: white;
-  padding: 15px
-}
-
-footer{
-  background: #DCDCDC;
-}
-
-.d-block {
-  width: 700px !important;
 }
